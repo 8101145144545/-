@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ルーレット</title>
+</head>
+<body>
+  <h2>参加者</h2>
+  <ul id="list"></ul>
+  <button onclick="roulette()">ルーレット開始</button>
+  <h1 id="result"></h1>
+
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBAOJzncpzE0L1y9DFH9qhe33vFcpGSw3k",
+  authDomain: "roulette-5684d.firebaseapp.com",
+  databaseURL: "https://roulette-5684d-default-rtdb.firebaseio.com",
+  projectId: "roulette-5684d",
+  storageBucket: "roulette-5684d.firebasestorage.app",
+  messagingSenderId: "666597471006",
+  appId: "1:666597471006:web:474a38e6d5d4e944034f0f",
+  measurementId: "G-RWV53GCQTQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);",
+      authDomain: "// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBAOJzncpzE0L1y9DFH9qhe33vFcpGSw3k",
+  authDomain: "roulette-5684d.firebaseapp.com",
+  databaseURL: "https://roulette-5684d-default-rtdb.firebaseio.com",
+  projectId: "roulette-5684d",
+  storageBucket: "roulette-5684d.firebasestorage.app",
+  messagingSenderId: "666597471006",
+  appId: "1:666597471006:web:474a38e6d5d4e944034f0f",
+  measurementId: "G-RWV53GCQTQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);",
+      databaseURL: "// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBAOJzncpzE0L1y9DFH9qhe33vFcpGSw3k",
+  authDomain: "roulette-5684d.firebaseapp.com",
+  databaseURL: "https://roulette-5684d-default-rtdb.firebaseio.com",
+  projectId: "roulette-5684d",
+  storageBucket: "roulette-5684d.firebasestorage.app",
+  messagingSenderId: "666597471006",
+  appId: "1:666597471006:web:474a38e6d5d4e944034f0f",
+  measurementId: "G-RWV53GCQTQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);",
+      projectId: "// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBAOJzncpzE0L1y9DFH9qhe33vFcpGSw3k",
+  authDomain: "roulette-5684d.firebaseapp.com",
+  databaseURL: "https://roulette-5684d-default-rtdb.firebaseio.com",
+  projectId: "roulette-5684d",
+  storageBucket: "roulette-5684d.firebasestorage.app",
+  messagingSenderId: "666597471006",
+  appId: "1:666597471006:web:474a38e6d5d4e944034f0f",
+  measurementId: "G-RWV53GCQTQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);",
+      storageBucket: "// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBAOJzncpzE0L1y9DFH9qhe33vFcpGSw3k",
+  authDomain: "roulette-5684d.firebaseapp.com",
+  databaseURL: "https://roulette-5684d-default-rtdb.firebaseio.com",
+  projectId: "roulette-5684d",
+  storageBucket: "roulette-5684d.firebasestorage.app",
+  messagingSenderId: "666597471006",
+  appId: "1:666597471006:web:474a38e6d5d4e944034f0f",
+  measurementId: "G-RWV53GCQTQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);",
+      messagingSenderId: "// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBAOJzncpzE0L1y9DFH9qhe33vFcpGSw3k",
+  authDomain: "roulette-5684d.firebaseapp.com",
+  databaseURL: "https://roulette-5684d-default-rtdb.firebaseio.com",
+  projectId: "roulette-5684d",
+  storageBucket: "roulette-5684d.firebasestorage.app",
+  messagingSenderId: "666597471006",
+  appId: "1:666597471006:web:474a38e6d5d4e944034f0f",
+  measurementId: "G-RWV53GCQTQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);",
+      appId: "// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBAOJzncpzE0L1y9DFH9qhe33vFcpGSw3k",
+  authDomain: "roulette-5684d.firebaseapp.com",
+  databaseURL: "https://roulette-5684d-default-rtdb.firebaseio.com",
+  projectId: "roulette-5684d",
+  storageBucket: "roulette-5684d.firebasestorage.app",
+  messagingSenderId: "666597471006",
+  appId: "1:666597471006:web:474a38e6d5d4e944034f0f",
+  measurementId: "G-RWV53GCQTQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+    let names = [];
+
+    db.ref("names").on("value", snapshot => {
+      names = [];
+      const ul = document.getElementById("list");
+      ul.innerHTML = "";
+      snapshot.forEach(child => {
+        names.push(child.val());
+        const li = document.createElement("li");
+        li.textContent = child.val();
+        ul.appendChild(li);
+      });
+    });
+
+    function roulette() {
+      if (names.length === 0) return;
+      const winner = names[Math.floor(Math.random() * names.length)];
+      document.getElementById("result").textContent = "当選: " + winner;
+      db.ref("result").set(winner);
+    }
+
+    db.ref("result").on("value", snap => {
+      if (snap.val()) {
+        document.getElementById("result").textContent = "当選: " + snap.val();
+      }
+    });
+  </script>
+</body>
+</html>
